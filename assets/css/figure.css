@@ -1,0 +1,76 @@
+
+/* Estilo para la figura humanoide */
+.figure-preview {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.figure .head {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff5733;
+  margin-bottom: 10px;
+}
+
+.figure .body {
+  width: 50px;
+  height: 120px;
+  background-color: #ff5733;
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.figure .limb {
+  width: 15px;
+  height: 80px;
+  background-color: #ff5733;
+  border-radius: 10px;
+}
+
+.figure .arms {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.figure .legs {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Diferencias en articulaciones */
+.basic .limb {
+  border-radius: 5px;
+}
+
+.dynamic .limb {
+  border-radius: 15px;
+}
+
+.advanced .limb {
+  border-radius: 50%;
+}

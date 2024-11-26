@@ -44,39 +44,32 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Vesperr</h1>
+        <img src="assets/img/icon.ico" alt="Hand Held Hearts Logo" class="logo-img">
+        <h1 class="sitename">Hand Held Hearts</h1>
       </a>
 
+      <!-- Navigation Menu -->
+      <!-- Navigation Menu -->
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="#hero" class="active">Inicio<br></a></li>
+          <li><a href="#Catalogo">Catalogo</a></li>
+          <li><a href="#about">Sobre Nosotros</a></li>
+          <li><a href="#custom-builder">Figura Custom</a></li>
+          <li><a href="#testimonials">Comunidad</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li class="dropdown d-none" id="profileNavItem">
+            <a href="#"><span>Perfil</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="profile.html">Ver Perfil</a></li>
+              <li><a href="#" id="logoutLink">Cerrar Sesion</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li id="loginNavItem"><a href="login.html">Iniciar Sesion</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
     </div>
   </header>
@@ -88,11 +81,11 @@
       <div class="container">
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Detalles del Catalogo</li>
           </ol>
         </nav>
-        <h1>Portfolio Details</h1>
+        <h1>Detalles del Catalogos</h1>
       </div>
     </div><!-- End Page Title -->
 
@@ -125,19 +118,19 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                  <img src="assets/img/Referencias/Ficcion/Ref1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                  <img src="assets/img/Referencias/Tematicas/Ref1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
+                  <img src="assets/img/Referencias/Roles/Ref1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
+                  <img src="assets/img/Referencias/Minis/Ref1.jpg" alt="">
                 </div>
 
               </div>
@@ -147,20 +140,24 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
+                <h3>Nuestro Repertorio</h3>
+                <ul>
+                    <li><strong>Categorías</strong>: Ediciones Temáticas, Personajes Fantásticos, Profesiones, Miniaturas de Escenarios</li>
+                    <li><strong>Materiales</strong>: Artesanales, accesibles y sostenibles</li>
+                    <li><strong>Estilo</strong>: Inspirado en muñecas BJD con articulaciones dinámicas</li>
+                    <li><strong>Explora más</strong>: <a href="#">Ver colección completa</a></li>
+                </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
+                <h2>Descubre nuestras figuras</h2>
+                <p>
+                    Cada figura de *Hand Held Hearts* cuenta una historia única. Desde criaturas míticas hasta personajes cotidianos, nuestras piezas están diseñadas para ser expresivas, versátiles y únicas. Inspírate con nuestra colección y encuentra la figura que mejor refleja tu estilo y personalidad.
+                </p>
+
+                <p>Aclaracion todas las imagenes utilizadas son referenciales</p>
             </div>
+        </div>
+        
           </div>
 
         </div>
